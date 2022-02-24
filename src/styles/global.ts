@@ -2,7 +2,7 @@ import { createGlobalStyle } from 'styled-components';
 
 import { Colors } from '../variables';
 
-const { gray700, primaryLighter } = Colors;
+const { gray700, white } = Colors;
 
 export const GlobalStyles = createGlobalStyle`
   *{
@@ -14,11 +14,11 @@ export const GlobalStyles = createGlobalStyle`
     min-height: 100%;
   }
   body{
-    background-color: ${primaryLighter};
+    background-color: ${white};
   }
   body,
   input,textarea{
-    font-family: 'DM Serif Display', serif;
+    font-family: 'Roboto', sans-serif;
     font-weight: 400;
   }
   button{

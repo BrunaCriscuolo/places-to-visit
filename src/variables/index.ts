@@ -1,3 +1,5 @@
 import Colors from './colors';
+import Images from './images';
+import Shadows from './shadows';
 
-export { Colors };
+export { Colors, Images, Shadows };
